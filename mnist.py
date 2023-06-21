@@ -34,7 +34,7 @@ class MLP(nn.Module):
 writer = SummaryWriter()
 
 # Global constants
-EPOCHS = 30
+EPOCHS = 100
 WARM_UP_STEPS = 5
 BATCH_SIZE = 32
 
